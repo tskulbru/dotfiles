@@ -39,22 +39,13 @@ export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/bin:/bin:/usr/sbin:/sbin:/
 export LC_ALL=no_NO.UTF-8
 export LANG=no_NO.UTF-8
 export ANDROID_HOME="${HOME}/Library/Android/sdk"
-#export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home
-#export JAVA7_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home
 export JAVA_TOOL_OPTIONS="-Dapple.awt.UIElement=true"
 
-# env
-#if [[ -e /usr/libexec/java_home ]]; then
-#  export JAVA_HOME=`/usr/libexec/java_home`
-#fi
-
-#PATH=$PATH:$HOME/Library/Developer/Xamarin/android-sdk-mac_x86/platform-tools:$HOME/Library/Developer/Xamarin/android-sdk-mac_x86/tools:/Applications/play-1.2.4 # Add RVM to PATH for scripting
 export PATH="$HOME/Library/Android/sdk/platform-tools:$Home/Library/Android/sdk/tools:$PATH"
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$HOME/.jenv/bin:$PATH"
 export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
 
 eval "$(rbenv init -)"
-eval "$(jenv init -)"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"

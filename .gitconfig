@@ -1,12 +1,17 @@
-[user]
-	email = serrghi@gmail.com
-	name = Torstein Skulbru
-	signingkey = 2D629BB8D93D6600
+# [user]
+# 	email = serrghi@gmail.com
+# 	name = Torstein S. Skulbru
+# 	signingkey = 2D629BB8D93D6600
 
 [alias]
 	c = commit -am
-#	up =
+	# Show the diff between the latest commit and the current state
+	d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
+	# `git di $number` shows the diff between the state `$number` revisions ago and the current state
+	di = !"d() { git diff --patch-with-stat HEAD~$1; }; git diff-index --quiet HEAD -- || clear; d"
 	up = "!git remote update -p; git merge --ff-only @{u}"
+	# Switch to a branch, creating it if necessary
+	go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
 	p = push
 	s = status -s
 	df = diff --color --color-words --abbrev
@@ -19,6 +24,25 @@
 	sl = shortlog -sn
 	fl = log -u
 	undopush = push -f origin HEAD^:master
+	# Show verbose output about tags, branches or remotes
+	tags = tag -l
+	branches = branch -a
+	remotes = remote -v
+	# Remove the old tag with this name and tag the latest commit with it.
+	retag = "!r() { git tag -d $1 && git push origin :refs/tags/$1 && git tag $1; }; r"
+	# Find branches containing commit
+	fb = "!f() { git branch -a --contains $1; }; f"
+	# Find tags containing commit
+	ft = "!f() { git describe --always --contains $1; }; f"
+	# Find commits by source code
+	fc = "!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short -S$1; }; f"
+	# Find commits by commit message
+	fm = "!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short --grep=$1; }; f"
+	# Remove branches that have already been merged with master
+	# a.k.a. ‘delete merged’
+	dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+	# List contributors with number of commits
+	contributors = shortlog --summary --numbered
 [color]
 	ui = always
 [apply]
@@ -33,10 +57,11 @@
 	# Prevent showing files whose names contain non-ASCII symbols as unversioned.
 	# http://michael-kuehnel.de/git/2014/11/21/git-mac-osx-and-german-umlaute.html
 	precomposeunicode = false
-
+	editor = nvim
 	autocrlf = false
-[commit]
-	template = ~/.gitmessage
+	# Speed up commands involving untracked files such as `git status`.
+	# https://git-scm.com/docs/git-update-index#_untracked_cache
+	untrackedCache = true
 [color]
 	ui = auto
 [color "branch"]
@@ -46,27 +71,39 @@
 [color "diff"]
 	meta = yellow bold
 	frag = magenta bold
-	old = red bold
-	new = green bold
+	old = red
+	new = green
 [color "status"]
 	added = yellow
 	changed = green
 	untracked = cyan
-[merge]
-	log = true
-	tool = Kaleidoscope
-# [commit]
-# 	# https://help.github.com/articles/signing-commits-using-gpg/
-# 	gpgsign = true
+[commit]
+	template = ~/.gitmessage
+	# https://help.github.com/articles/signing-commits-using-gpg/
+	gpgsign = true
+[credential]
+	helper = osxkeychain
+[diff]
+	# Detect copies as well as renames
+	renames = copies
+[diff "bin"]
+	# Use `hexdump` to diff binary files
+	textconv = hexdump -v -C
 [help]
 	# Automatically correct and execute mistyped commands
 	autocorrect = 1
+[merge]
+	log = true
+[push]
+	# https://git-scm.com/docs/git-config#git-config-pushdefault
+	default = simple
+	# Make `git push` push relevant annotated tags when pushing branches out.
+	followTags = true
+
 [url "git@github.com:"]
   insteadOf = "gh:"
-  insteadOf = "https://github.com"
 	pushInsteadOf = "github:"
 	pushInsteadOf = "git://github.com/"
-  pushInsteadOf = "https://github.com"
 [url "git://github.com/"]
 	insteadOf = "github:"
 [url "git@gist.github.com:"]
@@ -79,31 +116,5 @@
 # Any GitHub repo with my username should be checked out r/w by default
 # http://rentzsch.tumblr.com/post/564806957/public-but-hackable-git-submodules
   insteadOf = "git://github.com/tskulbru/"
-[diff]
-	tool = Kaleidoscope
-[difftool "diffmerge"]
-	cmd = diffmerge \"$LOCAL\" \"$REMOTE\"
-[mergetool "diffmerge"]
-	cmd = "diffmerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$(if test -f \"$BASE\"; then echo \"$BASE\"; else echo \"$LOCAL\"; fi)\" \"$REMOTE\""
-	trustExitCode = true
-[difftool "sourcetree"]
-	cmd = /opt/homebrew-cask/Caskroom/diffmerge/4.2.0.697/DiffMerge.app/Contents/MacOS/DiffMerge --nosplash \"$LOCAL\" \"$REMOTE\"
-	path =
-[mergetool "sourcetree"]
-	cmd = /opt/homebrew-cask/Caskroom/diffmerge/4.2.0.697/DiffMerge.app/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
-	trustExitCode = true
-[credential]
-	helper = osxkeychain
-[push]
-	default = simple
-[mergetool "Kaleidoscope"]
-	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
-	trustexitcode = true
-[difftool "Kaleidoscope"]
-	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
-[difftool]
-	prompt = false
-[mergetool]
-	prompt = false
 [rerere]
   enabled = true

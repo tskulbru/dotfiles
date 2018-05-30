@@ -6,9 +6,10 @@ git pull origin master;
 
 function doIt() {
 	rsync --exclude ".git/" \
+		--exclude ".DS_Store" \
 		--exclude "bootstrap.sh" \
 		--exclude "README.md" \
-		--exclude "LICENSE.txt" \
+		--exclude "LICENSE" \
 		-avh --no-perms . ~;
 	source ~/.zshrc;
 }
