@@ -29,18 +29,18 @@ brew tap bramstein/webfonttools
 brew install sfnt2woff
 brew install sfnt2woff-zopfli
 brew install woff2
+brew install homebrew/cask-fonts/font-fira-code
 
 # Install everything else
-
 brew install git
 brew install git-lfs
-brew install rename
-brew install tree
-brew install highlight
 brew install gist
 brew install gnupg2
 brew install heroku
 brew install heroku-toolbelt
+brew install highlight
+brew install java
+brew install neofetch
 brew install p7zip
 brew install pigz
 brew install pv
@@ -52,7 +52,7 @@ brew install tmux
 brew install tree
 brew install vbindiff
 brew install zopfli
-brew install java
+brew install getantibody/tap/antibody # zsh plugin manager
 
 # iOS dev stuff
 brew install swiftgen
@@ -66,23 +66,38 @@ brew install xctool
 brew tap caskroom/cask
 brew tap homebrew/cask-versions
 
+brew cask install alfred
 brew cask install android-studio
 brew cask install android-studio-preview
 brew cask install caffeine
 brew cask install dropbox
+brew cask install dash
+brew cask install fantastical
 brew cask install flux
+brew cask install gitkraken
 brew cask install google-chrome
 brew cask install google-backup-and-sync
 brew cask install google-hangouts
 brew cask install iterm2
 brew cask install jetbrains-toolbox
 brew cask install keybase
+brew cask install lastpass-cli
 brew cask install postman
 brew cask install reveal
 brew cask install slack
 brew cask install spectacle
 brew cask install spotify
 brew cask install vlc
+brew cask install visual-studio-code
 
+# Paid applications, enable whichever you use
+#brew cask install bettertouchtool
+#brew cask install little-snitch
+#brew cask install micro-snitch
+#brew cask install bartender
+#brew cask install kaleidoscope
+
+# Not in brew
+# Snippetslab
 # Remove outdated versions from the cellar
 brew cleanup

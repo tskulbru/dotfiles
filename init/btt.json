@@ -1,0 +1,2783 @@
+{
+  "BTTPresetName" : "Main",
+  "BTTPresetUUID" : "14A5A688-8F3D-4ECF-B6C2-BCADB8BF6ADB",
+  "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "net.ichi2.anki",
+      "BTTAppName" : "Anki",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 103,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "49",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Know",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "19",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 112,
+          "BTTTriggerTypeDescription" : "3 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "49",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 4,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Again",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "18",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Learned",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "20",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.finder",
+      "BTTAppName" : "Finder",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Tags",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,17",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 786432,
+          "BTTOrder" : 4,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Delete",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,51",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 1048576,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "New Tab",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,17",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "New Window",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,45",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 1048576,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Right tab",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,48",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 6,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Close window",
+          "BTTTriggerType" : 103,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,13",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 5,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Get Info",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,34",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 786432,
+          "BTTOrder" : 3,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Left tab",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,56,48",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 7,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "org.pythonmac.unspecified.brainworkshop",
+      "BTTAppName" : "Brain Workshop",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Pause\/Unpause",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "49",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Audio match",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "37",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Position match",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "0",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.agilebits.onepassword-osx",
+      "BTTAppName" : "1Password",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Edit",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,14",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "New entry",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,45",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.Notes",
+      "BTTAppName" : "Notes",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Delete",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "51",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "36",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Search",
+          "BTTTriggerType" : 112,
+          "BTTTriggerTypeDescription" : "3 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,3",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.kenditech.voicememosmac",
+      "BTTAppName" : "Voice Memos+",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Trim",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,17",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Save",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,1",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Play\/Pause",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "49",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.iTunes",
+      "BTTAppName" : "iTunes",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Search",
+          "BTTTriggerType" : 112,
+          "BTTTriggerTypeDescription" : "3 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,3",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Play\/pause",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "49",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "BT.G",
+      "BTTAppName" : "Global",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 97,
+          "BTTPredefinedActionName" : "Center Window",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 46,
+          "BTTShortcutModifierKeys" : 393216,
+          "BTTOrder" : 17
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 97,
+          "BTTPredefinedActionName" : "Center Window",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 103,
+          "BTTShortcutModifierKeys" : 1310720,
+          "BTTOrder" : 9,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 19,
+          "BTTPredefinedActionName" : "Maximize Window Left",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 131072,
+          "BTTOrder" : 11,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Show palette",
+          "BTTTriggerType" : 108,
+          "BTTTriggerTypeDescription" : "4 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,56,3",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 18,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Search",
+          "BTTTriggerType" : 112,
+          "BTTTriggerTypeDescription" : "3 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,3",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 23
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 20,
+          "BTTPredefinedActionName" : "Maximize Window Right",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 2,
+          "BTTShortcutModifierKeys" : 1703936,
+          "BTTOrder" : 3,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 0,
+          "BTTOrder" : 2592,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+
+          }
+        },
+        {
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 49,
+          "BTTPredefinedActionName" : "Open Application \/ File \/ Apple Script …",
+          "BTTLaunchPath" : "file:\/\/\/Applications\/Visual%20Studio%20Code.app",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 1048576,
+          "BTTOrder" : 16,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Zoom Out",
+          "BTTTriggerType" : 103,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,27",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 524288,
+          "BTTOrder" : 21,
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 19,
+          "BTTPredefinedActionName" : "Maximize Window Left",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 0,
+          "BTTShortcutModifierKeys" : 1703936,
+          "BTTOrder" : 4,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 93,
+          "BTTPredefinedActionName" : "Resize Window to Bottom Right Quarter \/ Corner",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 31,
+          "BTTShortcutModifierKeys" : 393216,
+          "BTTOrder" : 16,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 116,
+          "BTTPredefinedActionName" : "Lookup Word Under Cursor",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 20,
+          "BTTShortcutModifierKeys" : 393216,
+          "BTTOrder" : 20
+        },
+        {
+          "BTTRemoteTriggerName" : "Show Desktop",
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeBTTRemote",
+          "BTTPredefinedActionType" : 45,
+          "BTTPredefinedActionName" : "Show Desktop",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 97,
+          "BTTPredefinedActionName" : "Center Window",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 23,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 13,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 14,
+          "BTTPredefinedActionName" : "Sleep Computer",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 101,
+          "BTTShortcutModifierKeys" : 1572864,
+          "BTTOrder" : 8,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 91,
+          "BTTPredefinedActionName" : "Resize Window to Bottom Left Quarter \/ Corner",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 34,
+          "BTTShortcutModifierKeys" : 393216,
+          "BTTOrder" : 15,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 45,
+          "BTTPredefinedActionName" : "Show Desktop",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 120,
+          "BTTShortcutModifierKeys" : 1048576,
+          "BTTOrder" : 10,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Switch applications",
+          "BTTTriggerType" : 110,
+          "BTTTriggerTypeDescription" : "4 Finger Tap",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,48",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 6,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Zoom in",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,24",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 524288,
+          "BTTOrder" : 20,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 125,
+          "BTTPredefinedActionName" : "Show Menubar in Context Menu",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 43,
+          "BTTShortcutModifierKeys" : 393216,
+          "BTTOrder" : 18
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 117,
+          "BTTPredefinedActionName" : "Smart Zoom",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 103,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+            "BTTPauseBetween" : 0.3,
+            "BTTKeyCount" : 8,
+            "BTTKeySequenceDownKeys" : [
+              {
+                "BTTKEYCode" : 55,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 4.893507e+08
+              },
+              {
+                "BTTKEYCode" : 59,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 4.893507e+08
+              },
+              {
+                "BTTKEYCode" : 55,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 4.893507e+08
+              },
+              {
+                "BTTKEYCode" : 59,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 4.893507e+08
+              }
+            ],
+            "BTTKeySequenceMixedKeys" : [
+              {
+                "BTTKEYCode" : 55,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 4.893507e+08
+              },
+              {
+                "BTTKEYCode" : 59,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 4.893507e+08
+              },
+              {
+                "BTTKEYCode" : 59,
+                "BTTKEYTime" : 4.893507e+08
+              },
+              {
+                "BTTKEYCode" : 55,
+                "BTTKEYTime" : 4.893507e+08
+              },
+              {
+                "BTTKEYCode" : 55,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 4.893507e+08
+              },
+              {
+                "BTTKEYCode" : 59,
+                "BTTKEYDown" : 1,
+                "BTTKEYOrderRelevant" : 1,
+                "BTTKEYRequired" : 1,
+                "BTTKEYTime" : 4.893507e+08
+              },
+              {
+                "BTTKEYCode" : 59,
+                "BTTKEYTime" : 4.893507e+08
+              },
+              {
+                "BTTKEYCode" : 55,
+                "BTTKEYTime" : 4.893507e+08
+              }
+            ],
+            "BTTKeySequenceUpKeys" : [
+              {
+                "BTTKEYCode" : 59,
+                "BTTKEYTime" : 4.893507e+08
+              },
+              {
+                "BTTKEYCode" : 55,
+                "BTTKEYTime" : 4.893507e+08
+              },
+              {
+                "BTTKEYCode" : 59,
+                "BTTKEYTime" : 4.893507e+08
+              },
+              {
+                "BTTKEYCode" : 55,
+                "BTTKEYTime" : 4.893507e+08
+              }
+            ]
+          }
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 92,
+          "BTTPredefinedActionName" : "Resize Window to Top Right Quarter \/ Corner",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 32,
+          "BTTShortcutModifierKeys" : 393216,
+          "BTTOrder" : 12,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 103,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 47,
+          "BTTPredefinedActionName" : "Move Window to Next Monitor",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 131072,
+          "BTTOrder" : 13,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 163,
+          "BTTTriggerTypeDescription" : "3 Finger Double-Tap",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 112,
+          "BTTPredefinedActionName" : "Enter Fullscreen (If Supported)",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Show bartender menu bar",
+          "BTTTriggerType" : 121,
+          "BTTTriggerTypeDescription" : "4 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,56,55,13",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 5,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 104,
+          "BTTTriggerTypeDescription" : "3 Finger Tap",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 1,
+          "BTTPredefinedActionName" : "Middle Click",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 0,
+          "BTTOrder" : 2455,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+
+          }
+        },
+        {
+          "BTTGestureNotes" : "Smart zoom",
+          "BTTTriggerType" : 179,
+          "BTTTriggerTypeDescription" : "2 Finger Double-Tap",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,58,55,103",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 19,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 20,
+          "BTTPredefinedActionName" : "Maximize Window Right",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 131072,
+          "BTTOrder" : 12,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+
+          }
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 90,
+          "BTTPredefinedActionName" : "Resize Window to Top Left Quarter \/ Corner",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 22,
+          "BTTShortcutModifierKeys" : 1835008,
+          "BTTOrder" : 14,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 58,
+          "BTTPredefinedActionName" : "Search Selected Text With Google",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 25,
+          "BTTShortcutModifierKeys" : 1966080,
+          "BTTOrder" : 6,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 21,
+          "BTTPredefinedActionName" : "Maximize Window",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 3,
+          "BTTShortcutModifierKeys" : 1703936,
+          "BTTOrder" : 5,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 163,
+          "BTTPredefinedActionName" : "Open Native OS X Split View for Window (Left)",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 21,
+          "BTTShortcutModifierKeys" : 393216,
+          "BTTOrder" : 21
+        },
+        {
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 21,
+          "BTTPredefinedActionName" : "Maximize Window",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 131072,
+          "BTTOrder" : 10,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 103,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 49,
+          "BTTPredefinedActionName" : "Open Application \/ File \/ Apple Script …",
+          "BTTLaunchPath" : "file:\/\/\/Applications\/PDF%20Expert.app",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 1048576,
+          "BTTOrder" : 15,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 112,
+          "BTTPredefinedActionName" : "Enter Fullscreen (If Supported)",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 118,
+          "BTTShortcutModifierKeys" : 1048576,
+          "BTTOrder" : 7,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 122,
+          "BTTPredefinedActionName" : "Show Notification Center",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 111,
+          "BTTShortcutModifierKeys" : 9961472,
+          "BTTOrder" : 1
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 0,
+          "BTTOrder" : 2478,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+
+          }
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 47,
+          "BTTPredefinedActionName" : "Move Window to Next Monitor",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 1,
+          "BTTShortcutModifierKeys" : 1703936,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 5,
+          "BTTPredefinedActionName" : "Mission Control",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 122,
+          "BTTShortcutModifierKeys" : 1048576,
+          "BTTOrder" : 11,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 106,
+          "BTTTriggerTypeDescription" : "4 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 114,
+          "BTTPredefinedActionName" : "Move Right a Space",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 8,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 49,
+          "BTTPredefinedActionName" : "Open Application \/ File \/ Apple Script …",
+          "BTTLaunchPath" : "file:\/\/\/Applications\/Safari.app",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 1048576,
+          "BTTOrder" : 14,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 49,
+          "BTTPredefinedActionName" : "Open Application \/ File \/ Apple Script …",
+          "BTTLaunchPath" : "file:\/\/\/Applications\/Google%20Chrome.app",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 1048576,
+          "BTTOrder" : 22,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 154,
+          "BTTPredefinedActionName" : "Save Current Mouse Position",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 19,
+          "BTTShortcutModifierKeys" : 393216,
+          "BTTOrder" : 19
+        },
+        {
+          "BTTTriggerType" : 107,
+          "BTTTriggerTypeDescription" : "4 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 5,
+          "BTTPredefinedActionName" : "Mission Control",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 4,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 174,
+          "BTTTriggerTypeDescription" : "2 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 4,
+          "BTTPredefinedActionName" : "Right Click",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 17,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 141,
+          "BTTTriggerTypeDescription" : "5 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 122,
+          "BTTPredefinedActionName" : "Show Notification Center",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 9,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 112,
+          "BTTTriggerTypeDescription" : "3 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 116,
+          "BTTPredefinedActionName" : "Lookup Word Under Cursor",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 105,
+          "BTTTriggerTypeDescription" : "4 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 113,
+          "BTTPredefinedActionName" : "Move Left a Space",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 7,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 103,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 102,
+          "BTTPredefinedActionName" : "Close Window Below Cursor (Works in Mission Control)",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 155,
+          "BTTPredefinedActionName" : "Restore Saved Mouse Position",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 18,
+          "BTTShortcutModifierKeys" : 393216,
+          "BTTOrder" : 22
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 0,
+          "BTTOrder" : 2415,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+
+          }
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.guidedways.TodoMac",
+      "BTTAppName" : "2Do",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Go down a list",
+          "BTTTriggerType" : 103,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,125",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 4,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Peek into task\/project",
+          "BTTTriggerType" : 115,
+          "BTTTriggerTypeDescription" : "Pinch In",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "49",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Go up a list",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,126",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 5,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Delete task\/project",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,51",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Search",
+          "BTTTriggerType" : 112,
+          "BTTTriggerTypeDescription" : "3 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,3",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Peek into task\/project",
+          "BTTTriggerType" : 116,
+          "BTTTriggerTypeDescription" : "Pinch Out",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "49",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.ActivityMonitor",
+      "BTTAppName" : "Activity Monitor",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Info",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,34",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.flexibits.fantastical2.mac",
+      "BTTAppName" : "Fantastical 2",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Previous week\/month",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,123",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Next week\/month",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,124",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "New event",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,45",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "org.mozilla.firefoxdeveloperedition",
+      "BTTAppName" : "FirefoxDeveloperEdition",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Left tab",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,56,48",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 391,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+
+          }
+        },
+        {
+          "BTTGestureNotes" : "Right tab",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,48",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 392,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+
+          }
+        },
+        {
+          "BTTGestureNotes" : "Close tab",
+          "BTTTriggerType" : 103,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,13",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 393,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+
+          }
+        },
+        {
+          "BTTGestureNotes" : "New tab",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,17",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 394,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+
+          }
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.tapbots.TweetbotMac",
+      "BTTAppName" : "Tweetbot",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Retweet",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "17",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Reply",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,15",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 103,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "53",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Like",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "37",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.googlecode.iterm2",
+      "BTTAppName" : "iTerm",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Left tab",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,38",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Right tab",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,40",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.kapeli.dashdoc",
+      "BTTAppName" : "Dash",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "See def",
+          "BTTTriggerType" : 112,
+          "BTTTriggerTypeDescription" : "3 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 2,
+          "BTTPredefinedActionName" : "CMD(⌘)+Click",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 4,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "New tab",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,17",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Left tab",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,38",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Close tab",
+          "BTTTriggerType" : 103,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,13",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Right tab",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,40",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.iWork.Keynote",
+      "BTTAppName" : "Keynote",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Previous slide",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,33",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Next slide",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,30",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.bloombuilt.dayone-mac",
+      "BTTAppName" : "Day One",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Edit",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,14",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "New entry",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,45",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.hindsightlabs.paprika.mac",
+      "BTTAppName" : "Paprika Recipe Manager",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Delete",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "51",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "New recipe",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,45",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Search",
+          "BTTTriggerType" : 112,
+          "BTTTriggerTypeDescription" : "3 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,3",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Edit",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,14",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.ideasoncanvas.MindNodeMac",
+      "BTTAppName" : "MindNode",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Move node right",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,124",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Open in link",
+          "BTTTriggerType" : 112,
+          "BTTTriggerTypeDescription" : "3 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 88,
+          "BTTPredefinedActionName" : "Option(⌥)+Click",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Move node left",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,123",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Move node top",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,126",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Close window",
+          "BTTTriggerType" : 103,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,13",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 4,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.AddressBook",
+      "BTTAppName" : "Contacts",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Delete",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "51",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "New contact",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,45",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Edit",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,37",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.stairways.keyboardmaestro.editor",
+      "BTTAppName" : "Keyboard Maestro",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Mouse caret position",
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 118,
+          "BTTPredefinedActionName" : "Insert \/ Type \/ Paste Custom Text",
+          "BTTStringToType" : "%|%",
+          "BTTMoveCursorLeftBy" : "0",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 20,
+          "BTTShortcutModifierKeys" : 262144,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 0,
+          "BTTOrder" : 2020,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+
+          }
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 0,
+          "BTTOrder" : 2019,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : "",
+          "BTTKeySequence" : {
+
+          }
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 118,
+          "BTTPredefinedActionName" : "Insert \/ Type \/ Paste Custom Text",
+          "BTTStringToType" : "%SystemClipboard%",
+          "BTTMoveCursorLeftBy" : "0",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 19,
+          "BTTShortcutModifierKeys" : 262144,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.spotify.client",
+      "BTTAppName" : "Spotify",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Previous track",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,123",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Play\/pause",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "49",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Search",
+          "BTTTriggerType" : 112,
+          "BTTTriggerTypeDescription" : "3 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,3",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Next track",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,124",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.littlehj.Pixave",
+      "BTTAppName" : "Pixave",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Go left",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "123",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "36",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Go right",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "124",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Hide",
+          "BTTTriggerType" : 103,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,4",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.iBooksX",
+      "BTTAppName" : "iBooks",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Delete",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "51",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Bookmark",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,2",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.iWork.Pages",
+      "BTTAppName" : "Pages",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "36",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Delete",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "51",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Search",
+          "BTTTriggerType" : 112,
+          "BTTTriggerTypeDescription" : "3 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,3",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.tinyspeck.slackmacgap",
+      "BTTAppName" : "Slack",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Search",
+          "BTTTriggerType" : 112,
+          "BTTTriggerTypeDescription" : "3 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,3",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "it.bloop.airmail2",
+      "BTTAppName" : "Airmail 2",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Delete",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,51",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Archive",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "14",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "New mail",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,45",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "se.razola.Glui2",
+      "BTTAppName" : "Annotate",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "11",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 3,
+          "BTTShortcutModifierKeys" : 262144,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Save",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,1",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Rename",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,15",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "info.eurocomp.Timing2",
+      "BTTAppName" : "Timing2",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Add task from first suggestion",
+          "BTTTriggerType" : 112,
+          "BTTTriggerTypeDescription" : "3 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "36",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTAdditionalActions" : [
+            {
+              "BTTTriggerType" : -1,
+              "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+              "BTTPredefinedActionType" : -1,
+              "BTTPredefinedActionName" : "No Action",
+              "BTTShortcutToSend" : "55,36",
+              "BTTEnabled" : 1,
+              "BTTOrder" : 0
+            }
+          ]
+        },
+        {
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "123",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1
+        },
+        {
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "124",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2
+        },
+        {
+          "BTTGestureNotes" : "Search",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,3",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "org.m0k.transmission",
+      "BTTAppName" : "Transmission",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Info",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,34",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Search",
+          "BTTTriggerType" : 112,
+          "BTTTriggerTypeDescription" : "3 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,3",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Delete",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "51",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "New",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,45",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.Safari",
+      "BTTAppName" : "Safari",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Reader mode",
+          "BTTTriggerType" : 163,
+          "BTTTriggerTypeDescription" : "3 Finger Double-Tap",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,15",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 5,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Go tab left",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,56,48",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Go tab right",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,48",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "New tab",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,17",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Close tab",
+          "BTTTriggerType" : 103,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,13",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Open link in the background and switch to it",
+          "BTTTriggerType" : 173,
+          "BTTTriggerTypeDescription" : "2 Finger Tap",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 1,
+          "BTTPredefinedActionName" : "Middle Click",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 1048576,
+          "BTTOrder" : 6,
+          "BTTAdditionalActions" : [
+            {
+              "BTTTriggerType" : -1,
+              "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+              "BTTPredefinedActionType" : 129,
+              "BTTPredefinedActionName" : "Delay Next Action",
+              "BTTDelayNextActionBy" : "0.086621",
+              "BTTEnabled" : 1,
+              "BTTOrder" : 0,
+              "BTTIconData" : "Standard Close Icon",
+              "BTTAlternateIconData" : ""
+            },
+            {
+              "BTTTriggerType" : -1,
+              "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+              "BTTPredefinedActionType" : -1,
+              "BTTPredefinedActionName" : "No Action",
+              "BTTShortcutToSend" : "56,55,39",
+              "BTTEnabled" : 1,
+              "BTTOrder" : 1,
+              "BTTIconData" : "Standard Close Icon",
+              "BTTAlternateIconData" : ""
+            }
+          ],
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Open link in the background",
+          "BTTTriggerType" : 112,
+          "BTTTriggerTypeDescription" : "3 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 1,
+          "BTTPredefinedActionName" : "Middle Click",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 4,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.readdle.PDFExpert-Mac",
+      "BTTAppName" : "PDF Expert",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Close tab",
+          "BTTTriggerType" : 103,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,13",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Go tab right",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,48",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Go tab left",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,56,48",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Copy text to ulysses",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,8",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTAdditionalActions" : [
+            {
+              "BTTTriggerType" : -1,
+              "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+              "BTTPredefinedActionType" : 49,
+              "BTTPredefinedActionName" : "Open Application \/ File \/ Apple Script …",
+              "BTTLaunchPath" : "file:\/\/\/Applications\/Ulysses.app",
+              "BTTEnabled" : 1,
+              "BTTOrder" : 0
+            },
+            {
+              "BTTTriggerType" : -1,
+              "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+              "BTTPredefinedActionType" : -1,
+              "BTTPredefinedActionName" : "No Action",
+              "BTTShortcutToSend" : "55,9",
+              "BTTEnabled" : 1,
+              "BTTOrder" : 1
+            }
+          ],
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.Dictionary",
+      "BTTAppName" : "Dictionary",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Back in history",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,33",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Forward in history",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,30",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.pixelmatorteam.pixelmator",
+      "BTTAppName" : "Pixelmator",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,45",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,45",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.microsoft.VSCode",
+      "BTTAppName" : "Visual Studio Code",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Look at def",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,3",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Open sidebar",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,11",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Dash lookup",
+          "BTTTriggerType" : 103,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,40",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Go back",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,31",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.reederapp.rkit2.mac",
+      "BTTAppName" : "Reeder",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Hide article view",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "59,55,37",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Open in browser",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "11",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Add subscription",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,45",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.fournova.Tower2",
+      "BTTAppName" : "Tower",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "123",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0
+        },
+        {
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "124",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.google.Chrome",
+      "BTTAppName" : "Google Chrome",
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Google Chrome",
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "New tab",
+          "BTTTriggerType" : 102,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Up",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,17",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Right tab",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,124",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 2,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Open link in background",
+          "BTTTriggerType" : 112,
+          "BTTTriggerTypeDescription" : "3 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 1,
+          "BTTPredefinedActionName" : "Middle Click",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 4
+        },
+        {
+          "BTTGestureNotes" : "Close tab",
+          "BTTTriggerType" : 103,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Down",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,13",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTGestureNotes" : "Left tab",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,55,123",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
+          "BTTIconData" : "Standard Close Icon",
+          "BTTAlternateIconData" : ""
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.sublimetext.3",
+      "BTTAppName" : "Sublime Text",
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Sublime Text",
+      "BTTTriggers" : [
+        {
+          "BTTGestureNotes" : "Go right tab",
+          "BTTTriggerType" : 101,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,30",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0
+        },
+        {
+          "BTTGestureNotes" : "Go left tab",
+          "BTTTriggerType" : 100,
+          "BTTTriggerTypeDescription" : "3 Finger Swipe Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,33",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1
+        }
+      ]
+    }
+  ],
+  "BTTPresetSnapAreas" : [
+
+  ]
+}
