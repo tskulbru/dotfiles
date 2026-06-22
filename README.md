@@ -1,4 +1,26 @@
-## Installation
+## Quick start: tmux + zsh + kitty (macOS or Linux)
+
+Just want my terminal setup? Run:
+
+```bash
+git clone https://github.com/tskulbru/dotfiles.git && cd dotfiles && ./install.sh
+```
+
+`install.sh` installs the dependencies (zsh, tmux, kitty, fzf, neovim, a Nerd
+Font), sets up oh-my-zsh + Powerlevel10k + plugins + tmux's plugin manager, and
+symlinks the `tmux`, `kitty`, and `zsh` configs into place. Existing files are
+backed up to `<file>.bak-<timestamp>`. Safe to re-run.
+
+After it finishes: restart your terminal, set the font to **MesloLGS NF**, and
+press `prefix + I` (Ctrl-a, Shift-i) in tmux to install plugins. Put your own
+PATH/exports in `~/.zshrc.local` — it's sourced automatically and not tracked.
+
+The `install.sh` zsh config is a portable subset; my full personal `.zshrc`
+(machine-specific paths) is not shipped.
+
+---
+
+## Installation (full dotfiles — personal use)
 
 **Warning:** If you want to give these dotfiles a try, you should first fork this repository, review the code, and remove things you don’t want or need. Don’t blindly use my settings unless you know what that entails. Use at your own risk!
 
