@@ -110,6 +110,7 @@ link "$DOTFILES/.config/tmux"  "$HOME/.config/tmux"
 link "$DOTFILES/.config/kitty" "$HOME/.config/kitty"
 link "$DOTFILES/zsh/zshrc"     "$HOME/.zshrc"
 link "$DOTFILES/zsh/p10k.zsh"  "$HOME/.p10k.zsh"
+link "$DOTFILES/zsh/aliases.zsh" "$ZSH_CUSTOM_DIR/aliases.zsh"
 
 # --- default shell ----------------------------------------------------------
 if [[ "${SHELL:-}" != *zsh ]]; then
