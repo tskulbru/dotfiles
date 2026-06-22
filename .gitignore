@@ -12,3 +12,9 @@ Thumbs.db
 # Files that might appear on external disks
 .Spotlight-V100
 .Trashes
+# tmux TPM-installed plugins (cloned by TPM, not tracked)
+.config/tmux/plugins/
+
+# Hyprland runtime state / cached wallpapers (regenerated)
+.config/hypr/wallpaper_effects/
+.config/hypr/.initial_startup_done
